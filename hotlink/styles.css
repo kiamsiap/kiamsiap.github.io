@@ -1,0 +1,131 @@
+/* Reset default browser styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+header {
+  padding: 20px 0;
+  text-align: center;
+}
+
+header img {
+  max-width: 100px;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+nav ul li a:hover {
+  opacity: 1;
+}
+
+section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+ul li {
+  margin: 10px 20px;
+  color: #333333;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333333;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #000000;
+}
+
+#hero {
+  background: url('hero-image.jpg') no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+#hero .container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#features {
+  background-color: #f9f9f9;
+}
+
+#special-offers {
+  background: url('special-offers-image.jpg') no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+#rewards {
+  background-color: #f9f9f9;
+}
+
+#top-up {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #f9f9f9;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  color: #333333;
+  font-size: 14px;
+}
